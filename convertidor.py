@@ -1,12 +1,9 @@
 import re
 import os
 
-# --- CONFIGURACIÓN DE ARCHIVOS ---
-# Asegúrate de que este nombre coincida con tu archivo original de pg_dump
+
 INPUT_FILE = 'nomina_dump.sql' 
-# Este será el archivo final listo para MySQL
 OUTPUT_FILE = 'nomina_mysql_ready.sql' 
-# --------------------------------
 
 def convertir_postgres_a_mysql_robusto(archivo_entrada, archivo_salida):
     """
