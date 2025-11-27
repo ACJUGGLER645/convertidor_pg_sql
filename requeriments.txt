@@ -1,0 +1,3 @@
+pg_dump --VERSION
+cd "C:\Program Files\PostgreSQL\[VERSION]\bin"
+pg_dump -U postgres -F p nomina > C:\Users\[TuUsuario]\Desktop\nomina_dump.sql
